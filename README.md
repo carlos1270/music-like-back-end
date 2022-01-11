@@ -28,6 +28,12 @@ Generate API keys with `php artisan passport:keys`.
 
 If you want to use seed users for testing use `php artisan db:seed` to populate the database.
 
+## Development server
+
+Run `php artisan serve` to a dev server. Navigate to `http://localhost:8000/`. The app will reload automatically if you change any of the source files.
+
+#
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
