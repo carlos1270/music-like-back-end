@@ -1,3 +1,33 @@
+<p align="center"><img src="https://i.ibb.co/NKydd3J/01.png" alt="01" width="667" height="185" data-load="full" style=""></p>
+
+# Music Like
+
+Music like is an open-source project with the aim of creating a platform where the community of people share their music completely free of charge, showing their tastes and helping independent singers to conquer space in the market.
+
+This repository refers to the back-end part of the application developed in laravel passport. If you are interested in viewing the front-end part you can [click here](https://github.com/carlos1270/music-like-front-end).
+
+## Requirements
+
+- [PHP 7.4](https://www.php.net/).
+- [Composer 2.0 or higher](https://getcomposer.org/).
+- [Postgresql 12](https://www.postgresql.org/).
+
+## Installation
+
+Fork and clone this repository, then run `composer install` or `composer update`.
+
+Create an `.env` file with the contents of the `.env.example`.
+
+Generate application key with `php artisan key:generate`.
+
+Create the database and put the information in the `.env`.
+
+Migrate tables in database with `php artisan migrate`.
+
+Generate API keys with `php artisan passport:keys`.
+
+If you want to use seed users for testing use `php artisan db:seed` to populate the database.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
